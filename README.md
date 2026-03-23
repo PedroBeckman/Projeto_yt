@@ -23,6 +23,16 @@ Dependência importante
 Este projeto **requer o FFmpeg instalado no sistema**, pois ele é responsável pela conversão do áudio para MP3.
 
 Sem o FFmpeg, o download pode até ocorrer, mas a conversão falhará.
+
+---
+Alterações necessária
+Na função "def mp3(url)" será necessária a alterações de 2 parâmetros
+
+Serão eles:
+"outtmpl": "caminho para onde os audios baixados vão /yt_mp3/audio/%(title)s.%(ext)s",
+"cookiefile": "caminho do arquvio cookies.txt /yt_mp3/cookies.txt",
+
+Você precisará informar o caminho para onde seus audios serão exportados, no parâmetro "outtmpl" e também informar no parâmetro "cookiefile", o cookie do seu navegador para que o yt não faça o bloqueio de alguns conteúdos.
 ---
 Biblioteca utilizada
 
