@@ -1,4 +1,4 @@
-# Opa galera!
+# Opa galera! Bem vindo ao projeto DarkYT
 
 Esse é um **projeto teste** que fiz. Como também trabalho com **edição de vídeos**, preciso fazer o download de **áudios em MP3 do YouTube**.
 
@@ -43,5 +43,9 @@ Este projeto utiliza a biblioteca:
 
 - Além disso, você precisa de uma extensão no seu navegador para fornecer um arquivos de "cookies.txt"
 
+# FUTUROS UPDATES
+- Interface gráfica
+- Executável para Windows
+- Escolha entre MP3 e MP4
 
 
